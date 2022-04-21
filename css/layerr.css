@@ -1,0 +1,32 @@
+.layer {
+    /* display: none; */
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background-color: rgba(50, 48, 42, 0.7);
+}
+
+.c1 {
+    border: 2px red solid;
+    margin-top: 5%;
+}
+
+.bgImage {
+    border: 2px green solid;
+    height: 100%;
+    width: 75%;
+}
+
+.closeBtn {
+    border: 2px green solid;
+    width: 3%;
+    height: 5%;
+    position: absolute;
+    right: 5%;
+}
+
+.nameOfImg {
+    background-color: rgba(79, 79, 79, 0.4);
+    bottom: 0.5%;
+}

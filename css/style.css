@@ -1,0 +1,48 @@
+body {
+    font-family: 'Segoe ul light';
+}
+
+.zoomIcon {
+    left: 3%;
+    right: 3%;
+    bottom: 3%;
+    background-color: rgba(50, 48, 42, 0.4);
+    font-size: 32px;
+    color: rgb(211, 196, 196);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.item:hover .zoomIcon {
+    opacity: 1;
+}
+
+.layer {
+    display: none;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background-color: rgba(50, 48, 42, 0.7);
+}
+
+.bgImage {
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.bgImage i {
+    color: #FEF7DC;
+}
+
+#closeBtn {
+    top: 4%;
+    right: 3%;
+}
+
+.imagesClass,
+#leftArrowBtn,
+#closeBtn,
+#rightArrowBtn {
+    cursor: pointer;
+}
