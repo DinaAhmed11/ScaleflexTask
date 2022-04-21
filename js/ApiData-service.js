@@ -57,7 +57,7 @@ export async function fetchText(apiUrl) {
             index--;
         }
         bgImage.style.backgroundImage = `
-            url($ { item[index].getAttribute("src") })
+            url(${item[index].getAttribute("src") })
             `;
     }
 
